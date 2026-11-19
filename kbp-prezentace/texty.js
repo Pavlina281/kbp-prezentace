@@ -52,8 +52,8 @@ window.KBP = {
       id: "02",
       sekce: "dnes",
       kicker: "Veřejný obraz",
-      titulek: "KBP má obsah.\nChybí mu odpověď.",
-      text: "Skupina o sobě mluví jako o technologickém koncernu a pojmenovává poslání. Jednoduchá otázka přesto zůstává otevřená: co přesně KBP je?",
+      titulek: "KBP má silný obsah.\nTeď ho potřebuje srozumitelně propojit.",
+      text: "Skupina už dnes komunikuje své technologie, schopnosti a poslání. Další příležitostí je srozumitelně vysvětlit, co jednotlivé společnosti spojuje a jakou hodnotu vytvářejí společně.",
       karty: [
         {
           kicker: "Definice na kbp.eu",
@@ -71,26 +71,26 @@ window.KBP = {
       id: "03",
       sekce: "dnes",
       kicker: "Otázka zvenku",
-      titulek: "KBP je mnoho firem.\nProč jsou spolu?",
-      text: "Na kariérním webu stojí značky vedle sebe. Jméno na nabídce práce ukazuje, kam inzerát patří. Neukazuje, proč tyto firmy tvoří jeden celek.",
+      titulek: "KBP tvoří více specializovaných firem.\nCo vzniká jejich propojením?",
+      text: "Na kariérním webu stojí značky vedle sebe. Jméno na nabídce práce ukazuje, kam inzerát patří. Další příležitostí je srozumitelně ukázat, co jednotlivé firmy spojuje a co jejich propojením vzniká.",
       znacky: "KBP/BO, Aircraft, SOL, KRILL B.P., New Space Technologies, MVVS, KBP INTERNATIONAL",
       karty: [
         { klic: "vyrok", kicker: "Dojem", titulek: "KBP je mnoho firem.", text: "" },
-        { klic: "vyrok", kicker: "Chybí", titulek: "Proč právě tyto firmy tvoří jeden celek.", text: "" }
+        { klic: "vyrok", kicker: "Příležitost", titulek: "Srozumitelně ukázat, co jednotlivé firmy spojuje a co jejich propojením vzniká.", text: "" }
       ]
     },
     {
       id: "04",
       sekce: "model",
-      kicker: "Strategický model",
-      titulek: "Platforma schopností",
-      text: "Takto bych vztahy vysvětlovala. Je to model pro komunikaci, ne popis dnešního organigramu.",
+      kicker: "Architektura claimů",
+      titulek: "Síla vzniká propojením.",
       karty: [
-        { klic: "kbp", kicker: "Skupina", titulek: "KBP", text: "Strategie, kapitál, propojení" },
-        { klic: "vyvoj", kicker: "Vývoj", titulek: "New Space Technologies", text: "Koncepce a konstrukce" },
-        { klic: "vyroba", kicker: "Výroba", titulek: "KBP Machinery", text: "Výroba a integrace" },
-        { klic: "produkty", kicker: "Produkty", titulek: "MVVS a KRILL Aircraft", text: "Vlastní značky a výrobky" },
-        { klic: "trh", kicker: "Trh", titulek: "KBP INTERNATIONAL", text: "Systém, trh, partner" }
+        { klic: "vrstva", kicker: "Strategická myšlenka", titulek: "Síla vzniká propojením.", text: "Vnitřní princip" },
+        { klic: "vrstva", kicker: "Brandový claim", titulek: "Many strengths. One vision.", text: "Identita KBP" },
+        { klic: "vrstva", kicker: "Zákaznická komunikace", titulek: "Propojujeme odbornost, technologie a zkušenosti.", text: "Přínos pro zákazníka" },
+        { klic: "master", kicker: "Master brand", titulek: "KBP", text: "Many strengths. One vision.\nMnoho schopností. Jeden společný směr." },
+        { klic: "hodnota", kicker: "Zákaznická hodnota", titulek: "Odbornost, která otevírá nové možnosti.", text: "" },
+        { klic: "doporuceni", text: "Claim skupiny ponechat jako zastřešující vyjádření identity KBP. Zákaznickou komunikaci stavět na konkrétních schopnostech jednotlivých společností a jejich přínosu pro zákazníka." }
       ]
     },
     {
@@ -111,22 +111,22 @@ window.KBP = {
     {
       id: "06",
       sekce: "model",
-      kicker: "Architektura claimů",
-      titulek: "Many strengths. One vision.",
+      kicker: "Strategický model",
+      titulek: "Platforma schopností",
+      text: "Model vysvětluje, jak se jednotlivé schopnosti mohou propojit. Nejde o nový organigram ani o změnu současného uspořádání společností.",
       karty: [
-        { klic: "vrstva", kicker: "Strategická myšlenka", titulek: "Síla vzniká propojením.", text: "Vnitřní princip" },
-        { klic: "vrstva", kicker: "Brandový claim", titulek: "Many strengths. One vision.", text: "Identita KBP" },
-        { klic: "vrstva", kicker: "Zákaznická komunikace", titulek: "Propojujeme odbornost, technologie a zkušenosti.", text: "Přínos pro zákazníka" },
-        { klic: "master", kicker: "Master brand", titulek: "KBP", text: "Many strengths. One vision.\nMnoho schopností. Jeden společný směr." },
-        { klic: "hodnota", kicker: "Zákaznická hodnota", titulek: "Odbornost, která otevírá nové možnosti.", text: "" },
-        { klic: "doporuceni", text: "Claim skupiny ponechat jako zastřešující vyjádření identity KBP. Zákaznickou komunikaci stavět na konkrétních schopnostech jednotlivých společností a jejich přínosu pro zákazníka." }
+        { klic: "kbp", kicker: "Skupina", titulek: "KBP", text: "Strategie, kapitál, propojení" },
+        { klic: "vyvoj", kicker: "Vývoj", titulek: "New Space Technologies", text: "Koncepce a konstrukce" },
+        { klic: "vyroba", kicker: "Výroba", titulek: "KBP Machinery", text: "Výroba a integrace" },
+        { klic: "produkty", kicker: "Produkty", titulek: "MVVS a KRILL Aircraft", text: "Vlastní značky a výrobky" },
+        { klic: "trh", kicker: "Trh", titulek: "KBP INTERNATIONAL", text: "Systém, trh, partner" }
       ]
     },
     {
       id: "07",
       sekce: "firmy",
       kicker: "Čtyři schopnosti",
-      titulek: "Co skupina umí rozdělit a znovu spojit",
+      titulek: "Čtyři schopnosti, které se mohou propojit.",
       text: "Čtyři role vycházejí z veřejných webů firem.",
       poznamka: "Veřejné zdroje: newspacetechnologies.cz, kbp-machinery.com, mvvs.cz, kbp.eu.",
       karty: [
@@ -154,11 +154,11 @@ window.KBP = {
       id: "09",
       sekce: "firmy",
       kicker: "Zákaznická cesta",
-      titulek: "Zákazník přinese problém.\nKBP složí schopnosti.",
+      titulek: "Zákazník přinese potřebu.\nKBP může propojit schopnosti.",
       text: "Nemusí přijít s požadavkem na konkrétní firmu. Řekne, jaké řešení potřebuje.",
       karty: [
-        { klic: "zakaznik", kicker: "Vstup", titulek: "Zákazník", text: "Problém a potřeba" },
-        { klic: "kbp", kicker: "Skupina", titulek: "KBP", text: "Vybere kompetence" },
+        { klic: "zakaznik", kicker: "Vstup", titulek: "Zákazník", text: "Potřeba řešení" },
+        { klic: "kbp", kicker: "Skupina", titulek: "KBP", text: "Může propojit kompetence" },
         { klic: "schopnost", kicker: "Vývoj", titulek: "NST", text: "" },
         { klic: "schopnost", kicker: "Pohon", titulek: "MVVS", text: "" },
         { klic: "schopnost", kicker: "Výroba", titulek: "Kapacity", text: "" },
@@ -173,7 +173,7 @@ window.KBP = {
       sekce: "znacka",
       kicker: "Archetyp",
       titulek: "Tvůrce, který má sílu Vládce a rozum Mudrce.",
-      text: "Navenek komunikuji Tvůrce. Jeho věta zní: dokážeme z toho něco vytvořit.",
+      text: "Navenek vystupuje KBP jako Tvůrce. Jeho síla je v tom, že dokáže z odbornosti vytvořit konkrétní řešení.",
       karty: [
         { kicker: "Primární", titulek: "Tvůrce", text: "Vyvíjet, konstruovat, vyrábět, zkoušet a zdokonalovat." },
         { kicker: "Sekundární", titulek: "Vládce", text: "Dát věcem strukturu, zdroje a odpovědnost, aby řešení vzniklo a udrželo se." },
@@ -232,14 +232,14 @@ window.KBP = {
         { klic: "prinos", nazev: "Obchodní přínos" }
       ],
       karty: [
-        { oblast: "Hlavní sdělení", puvodni: "Informují o produktu nebo partnerství.", navrh: "Ukazují i místo ve směřování skupiny.", prinos: "Obraz KBP jako technologické skupiny." },
-        { oblast: "KBP INTERNATIONAL", puvodni: "Představí projekt a spolupráci.", navrh: "Rozvíjí obchody a zahraniční partnerství.", prinos: "Posiluje pozici a důvěru partnerů." },
-        { oblast: "Skupina KBP", puvodni: "Zmíněna hlavně jako zastřešující subjekt.", navrh: "Ukazuje vývojové a výrobní schopnosti.", prinos: "Otevírá prostor pro další zakázky." },
-        { oblast: "Propojení společností", puvodni: "Vazby mezi subjekty nejsou vždy zřejmé.", navrh: "Kompetence se potkají na projektu.", prinos: "Podporuje synergie a využití kapacit." },
-        { oblast: "Produkt a partnerství", puvodni: "Důraz na popis produktu nebo dohody.", navrh: "Zasazeno do obchodního kontextu.", prinos: "Pro zákazníky, partnery i investory." },
-        { oblast: "Budoucí rozvoj", puvodni: "Příležitosti jsou spíš doplněk textu.", navrh: "Vazba na výrobu, technologie a vztahy.", prinos: "Podporuje nové kontakty a projekty." },
-        { oblast: "Jazyk a tón", puvodni: "Převážně informační a popisný.", navrh: "Sebevědomě: schopnosti a příležitosti.", prinos: "Zapamatovatelnější obraz značky." },
-        { oblast: "Představení skupiny", puvodni: "Počty lidí, obrat a obecná činnost.", navrh: "Co skupina umí a jakou hodnotu přináší.", prinos: "Partner lépe vidí potenciál spolupráce." }
+        { oblast: "Hlavní sdělení", puvodni: "Informují o produktu nebo partnerství.", navrh: "Ukazují i místo ve směřování skupiny.", prinos: "Čtenář pochopí širší kontext. Může to otevřít rozhovor o spolupráci nad rámec jedné zprávy." },
+        { oblast: "KBP INTERNATIONAL", puvodni: "Představí projekt a spolupráci.", navrh: "Rozvíjí obchody a zahraniční partnerství.", prinos: "Partner lépe vidí obchodní roli. Může to dát pevnější východisko pro další jednání." },
+        { oblast: "Skupina KBP", puvodni: "Zmíněna hlavně jako zastřešující subjekt.", navrh: "Ukazuje vývojové a výrobní schopnosti.", prinos: "Zákazník rozpozná schopnosti za projektem. Může to otevřít navazující poptávku." },
+        { oblast: "Propojení společností", puvodni: "Vazby mezi subjekty nejsou vždy zřejmé.", navrh: "Kompetence se potkají na projektu.", prinos: "Zákazník uvidí, kdo se na řešení podílí. Může to zpřehlednit nabídku společné kapacity." },
+        { oblast: "Produkt a partnerství", puvodni: "Důraz na popis produktu nebo dohody.", navrh: "Zasazeno do obchodního kontextu.", prinos: "Čtenář chápe, k čemu produkt nebo dohoda je. Může to dát jasnější důvod ke kontaktu." },
+        { oblast: "Budoucí rozvoj", puvodni: "Příležitosti jsou spíš doplněk textu.", navrh: "Vazba na výrobu, technologie a vztahy.", prinos: "Text ukáže, kam spolupráce může vést. Může to přivést nové kontakty a projekty." },
+        { oblast: "Jazyk a tón", puvodni: "Převážně informační a popisný.", navrh: "Sebevědomě: schopnosti a příležitosti.", prinos: "Sdělení se lépe pamatuje. Může to posílit první dojem před jednáním." },
+        { oblast: "Představení skupiny", puvodni: "Počty lidí, obrat a obecná činnost.", navrh: "Co skupina umí a jakou hodnotu přináší.", prinos: "Partner vidí hodnotu, ne jen velikost. Může to zpřesnit odhad potenciálu spolupráce." }
       ],
       zaver: "Očekávaný dopad budeme sledovat na poptávkách, kontaktech, obchodních jednáních a návštěvnosti."
     },

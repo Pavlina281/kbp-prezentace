@@ -7,9 +7,9 @@
     "01": "titul",
     "02": "citace",
     "03": "otazka",
-    "04": "model",
+    "04": "claim",
     "05": "dum",
-    "06": "claim",
+    "06": "model",
     "07": "ctyri",
     "08": "role",
     "09": "cesta",
@@ -232,7 +232,7 @@
   function renderCtyri(slide) {
     const rows = (slide.karty || []).filter(function (item) { return item.klic === "radek"; });
     const cards = (slide.karty || []).filter(function (item) { return item.klic !== "radek"; });
-    const grid = h("div", { class: "grid-4" }, cards.map(function (item) {
+    const grid = h("div", { class: rows.length ? "grid-4 steps-path" : "grid-4" }, cards.map(function (item) {
       return card(item);
     }));
     if (!rows.length) return shell(slide, grid);
